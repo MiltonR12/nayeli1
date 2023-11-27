@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #202020;
+  color: #fff;
+}
+
+.fondo {
+  background: linear-gradient(0deg, rgba(251,207,232,1), rgba(0,0,0,0)) ,url(./img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
