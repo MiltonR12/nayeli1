@@ -65,7 +65,7 @@ function SectionProyectos() {
             <h2 className="font-bold py-2" >
               VIDEO DINAMICO Y CREATIVO PARA NIÑOS
             </h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Tu5FYEiDBKE?si=fw8xCAAfhhULutuP" title="YouTube video player" frameborder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Tu5FYEiDBKE?si=fw8xCAAfhhULutuP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           </div>
 
           <div className="col-span-2 flex flex-col gap-3" >
