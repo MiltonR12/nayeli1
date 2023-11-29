@@ -5,6 +5,8 @@ import proyecto3 from '../img/proyecto3.jpeg'
 import proyecto4 from '../img/proyecto4.jpeg'
 import proyecto5 from '../img/proyecto5.jpeg'
 import proyecto6 from '../img/proyecto6.jpeg'
+import proyecto7 from '../img/proyecto7.jpeg'
+import proyecto8 from '../img/proyecto8.jpeg'
 import CardPdf from "./CardPdf"
 import pdf2 from '../pdf/pdf1.pdf'
 import pdf3 from '../pdf/pdf2.pdf'
@@ -17,7 +19,7 @@ function SectionProyectos() {
         <h3 className="text-fuchsia-600 font-semibold text-5xl text-center mb-5" >
           Proyectos Realizados
           </h3>
-        <div className="grid grid-cols-2 gap-5" >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-3" >
 
           <CardProyecto
             title="Los 5 sentidos"
@@ -61,14 +63,28 @@ function SectionProyectos() {
             urlImg={proyecto6}
           />
 
-          <div className="col-span-2 pt-5 mx-auto" >
+          <CardProyecto 
+            title="Las vocales"
+            description="Embárcate en una aventura educativa con nuestras fichas interactivas sobre las vocales. Descubre juegos, canciones y actividades que hacen que aprender sea divertido. ¡Explora el fascinante mundo de las vocales de manera interactiva y educativa."
+            url="https://www.goconqr.com/es-ES/slide/18499899/las-vocales"
+            urlImg={proyecto7}
+          />
+
+          <CardProyecto
+            title="Los numeros"
+            description="Sumérgete en el universo numérico con nuestras fichas interactivas sobre los números. Desde juegos didácticos hasta curiosidades matemáticas, descubre formas divertidas de aprender y entender los números. ¡Explora el fascinante mundo de las cifras con nuestras herramientas interactivas!"
+            url="https://www.goconqr.com/es-ES/flashcard/38928639/los-numeros"
+            urlImg={proyecto8}
+          />
+
+          <div className="md:col-span-2 pt-5 mx-auto" >
             <h2 className="font-bold py-2" >
               VIDEO DINAMICO Y CREATIVO PARA NIÑOS
             </h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Tu5FYEiDBKE?si=fw8xCAAfhhULutuP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <iframe width="300" height="215" src="https://www.youtube.com/embed/Tu5FYEiDBKE?si=fw8xCAAfhhULutuP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           </div>
 
-          <div className="col-span-2 flex flex-col gap-3" >
+          <div className=" md:col-span-2 flex flex-col gap-3" >
             <h3 className="text-rose-600 text-3xl" >Recursos</h3>
             
             <CardPdf 

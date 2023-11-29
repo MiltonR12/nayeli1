@@ -3,7 +3,7 @@ function Menu() {
   return (
     <header className="fixed w-screen bg-fuchsia-950 " >
       <div className="flex justify-between items-center mx-auto container" >
-        <h2 className="font-semibold" >
+        <h2 className="font-semibold hidden md:block" >
           Nayeli Quenallata Mayta
         </h2>
         <nav>
